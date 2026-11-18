@@ -1,0 +1,37 @@
+# 编译产物（tasks.json 会把 exe 生成在源文件旁边）
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.gch
+*.pch
+*.ilk
+*.pdb
+*.idb
+*.exp
+*.stackdump
+*.dSYM/
+
+# 构建目录
+build/
+bin/
+obj/
+cmake-build-*/
+
+# 编辑器 / 缓存
+.vscode/ipch/
+.vscode/*.log
+.cache/
+
+# 日志与临时文件
+*.log
+*.tmp
+*.swp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
